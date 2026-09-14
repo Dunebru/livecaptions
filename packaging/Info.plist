@@ -2,20 +2,39 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-    <key>CFBundleName</key><string>LiveCaptions</string>
-    <key>CFBundleDisplayName</key><string>LiveCaptions</string>
-    <key>CFBundleIdentifier</key><string>com.dunebru.livecaptions</string>
-    <key>CFBundleVersion</key><string>1</string>
-    <key>CFBundleShortVersionString</key><string>1.0.0</string>
-    <key>CFBundleExecutable</key><string>LiveCaptions</string>
-    <key>CFBundleIconFile</key><string>AppIcon</string>
-    <key>CFBundlePackageType</key><string>APPL</string>
-    <key>CFBundleInfoDictionaryVersion</key><string>6.0</string>
-    <key>LSMinimumSystemVersion</key><string>14.0</string>
-    <key>LSApplicationCategoryType</key><string>public.app-category.productivity</string>
-    <key>NSHighResolutionCapable</key><true/>
-    <key>NSHumanReadableCopyright</key><string>© 2026 dunebru. MIT License.</string>
-    <key>NSMicrophoneUsageDescription</key><string>Live Captions can caption your microphone as well as system audio.</string><key>NSScreenCaptureUsageDescription</key><string>Live Captions listens to system audio through screen recording permission. No video is stored.</string>
-    <key>NSSupportsAutomaticTermination</key><false/>
+	<key>CFBundleDisplayName</key>
+	<string>LiveCaptions</string>
+	<key>CFBundleExecutable</key>
+	<string>LiveCaptions</string>
+	<key>CFBundleIconFile</key>
+	<string>AppIcon</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.dunebru.livecaptions</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>LiveCaptions</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0.0</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>ITSAppUsesNonExemptEncryption</key>
+	<false/>
+	<key>LSApplicationCategoryType</key>
+	<string>public.app-category.productivity</string>
+	<key>LSMinimumSystemVersion</key>
+	<string>14.0</string>
+	<key>NSHighResolutionCapable</key>
+	<true/>
+	<key>NSHumanReadableCopyright</key>
+	<string>© 2026 dunebru. MIT License.</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Live Captions can caption your microphone as well as system audio.</string>
+	<key>NSScreenCaptureUsageDescription</key>
+	<string>Live Captions listens to system audio through screen recording permission. No video is stored.</string>
+	<key>NSSupportsAutomaticTermination</key>
+	<false/>
 </dict>
 </plist>
