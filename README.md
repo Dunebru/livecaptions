@@ -47,13 +47,9 @@ macOS has Live Captions built in, but it cannot translate. Zoom, Otter and the l
 
 ## Install
 
+Signed with a Developer ID and notarized by Apple, so it opens like any other Mac app.
+
 Download **LiveCaptions.zip** from the [latest release](https://github.com/Dunebru/livecaptions/releases/latest), unzip, move **Live Captions.app** to Applications.
-
-Unsigned app: first launch is **right-click → Open → Open**. If macOS still refuses:
-
-```bash
-xattr -dr com.apple.quarantine "/Applications/LiveCaptions.app"
-```
 
 Requires macOS 14 Sonoma or newer on Apple silicon. Translation needs macOS 15.
 
